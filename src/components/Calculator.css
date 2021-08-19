@@ -15,7 +15,8 @@
 
 .Input {
   text-align: right;
-  padding-right: 35px;
+  padding: 10px;
+  padding-right: 40px;
   background-color: grey;
   color: white;
   font-weight: 600;
@@ -31,4 +32,5 @@
      background-color: transparent;
      font-size: 18px;
      font-weight: 600;
+     padding: 10px;
 }
