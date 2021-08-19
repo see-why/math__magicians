@@ -25,3 +25,10 @@
 .Orange {
   background-color: lightsalmon;
 }
+
+.btn {
+     border: none;
+     background-color: transparent;
+     font-size: 18px;
+     font-weight: 600;
+}
