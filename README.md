@@ -18,7 +18,7 @@ It is a Single Page App (SPA) that allows users to:
 
 ## Live Demo
 
-[Live Demo Link](https://leandro-barretoo.github.io/math_magicians/build)
+[Live Demo Link](https://leandro-barretoo.github.io/math_magicians/)
 
 
 ## Getting Started
