@@ -1,57 +1,44 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magicians
 
-> One paragraph statement about the project.
+"Math magicians" is a website for all fans of mathematics.
 
-Additional description about the project and its features.
+![screenshot](./calculator.png)
+
+It is a Single Page App (SPA) that allows users to:
+    -> Make simple calculations.
+    -> Read a random math-related quote.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML5, CSS3
+- JavaScript
+- React
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://leandro-barretoo.github.io/math_magicians/build)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Clone the repo `git clone git@github.com:Leandro-Barretoo/math__magicians.git`
+- `cd` into the directory
+- run `npm i` or `npm install` to download required node_modules
+- open in your desired code editor
+- run `npm start` to start live server
 
 ## Authors
 
-👤 **Author1**
+👤 **Leandro Barreto**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Leandro-Barretoo](https://github.com/Leandro-Barretoo)
+- LinkedIn: [Leandro Barreto](https://linkedin.com/in/leandroobarreto/)
 
 ## 🤝 Contributing
 

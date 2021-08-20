@@ -3,19 +3,17 @@ import './Calculator.css';
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
-  const [total, setTotal] = useState(null);
-  const [next, setNext] = useState(null);
+  const [state, myState] = useState({ total: null, next: null, operation: null });
 
   const changeState = (e) => {
-    setTotal(calculate(total, e.target.innerText).total);
-    setNext(calculate(next, e.target.innerText).next);
+    myState({ ...state, ...calculate(state, e.target.innerText) });
   };
 
   return (
     <table className="TableContainer">
       <tbody>
         <tr>
-          <td className="TableCell Input" colSpan="4">{next || (total || '0')}</td>
+          <td className="TableCell Input" colSpan="4">{state.next || (state.total || '0')}</td>
         </tr>
         <tr>
           <td className="TableCell"><button className="btn" type="button" onClick={(e) => { changeState(e); }}>AC</button></td>
