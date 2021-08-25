@@ -1,0 +1,40 @@
+.links {
+  font-weight: 600;
+  padding: 10px;
+  border-right: 1px solid black;
+}
+
+.links:last-child {
+  border: none;
+}
+
+.Visited {
+  text-decoration: none;
+  color: black;
+}
+
+.Visited:hover {
+  color: grey;
+}
+
+.link-container {
+  list-style: none;
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.logo {
+  flex: 2;
+  margin-left: 10px;
+  font-size: 2.8em;
+  font-family: 'Rampart One', cursive;
+  padding: 20px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
