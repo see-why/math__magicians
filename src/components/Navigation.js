@@ -7,6 +7,7 @@ const Navigation = () => {
     marginLeft: '10px',
     fontSize: '2.8em',
     fontFamily: "'Rampart One', cursive",
+    padding: '20px',
   };
 
   return (

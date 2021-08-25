@@ -1,5 +1,15 @@
+.Calc-container {
+  display: flex;
+  margin: 6rem;
+}
+
+.Math-text {
+  flex: 1;
+  font-size: 2em;
+}
+
 .TableContainer {
-  border: 2px solid black;
+  box-shadow: 0 0 15px grey;
   width: 500px;
   height: 500px;
   margin: 40px;
