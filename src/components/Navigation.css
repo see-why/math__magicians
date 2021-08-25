@@ -8,6 +8,15 @@
   border: none;
 }
 
+.Visited {
+  text-decoration: none;
+  color: black;
+}
+
+.Visited:hover {
+  color: grey;
+}
+
 .link-container {
   list-style: none;
   display: flex;

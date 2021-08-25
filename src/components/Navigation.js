@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -13,12 +14,18 @@ const Navigation = () => {
   return (
     <div style={{ display: 'flex', alignItems: 'center' }}>
       <span style={logo}>
-        Math Magicians
+        <Link to="/math__magicians" className="Visited">Math Magicians</Link>
       </span>
       <ul className="link-container">
-        <li className="links">Home</li>
-        <li className="links">Calculator</li>
-        <li className="links">Quote</li>
+        <li className="links">
+          <Link to="/math__magicians" className="Visited">Home</Link>
+        </li>
+        <li className="links">
+          <Link to="/math__magicians/calculator" className="Visited">Calculator</Link>
+        </li>
+        <li className="links">
+          <Link to="/math__magicians/quote" className="Visited">Quote</Link>
+        </li>
       </ul>
     </div>
   );
