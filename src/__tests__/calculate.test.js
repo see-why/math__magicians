@@ -39,10 +39,22 @@ describe('calculate functioin', () => {
 
   it('When a AC key is pressed', () => {
     const obj = {
-      equalSign: true, next: null, operation: null, total: '13',
+      next: null, operation: null, total: '13',
     };
     const newObj = { next: null, operation: null, total: null };
     const button = 'AC';
     expect(calculate(obj, button)).toEqual(newObj);
   });
+
+  it('When a dot key is pressed', () => {
+    const obj = { next: '3', operation: '+', total: '10' };
+    const newObj = { next: '3.' };
+    const button = '.';
+    expect(calculate(obj, button)).toEqual(newObj);
+  });
 });
+
+
+// buttonName === '.'
+// buttonName === '='
+// buttonName === '+/-'
