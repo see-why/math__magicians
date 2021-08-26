@@ -1,9 +1,9 @@
 import React from 'react';
-import { render, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Calculator from '../components/Calculator';
-import { configure, shallow, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
+import Calculator from '../components/Calculator';
+
 configure({ adapter: new Adapter() });
 
 describe('the UI page', () => {

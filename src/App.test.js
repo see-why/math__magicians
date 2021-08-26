@@ -1,6 +1,5 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import { MemoryRouter, Link } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 import '@testing-library/jest-dom';
 import renderer from 'react-test-renderer';
 import App from './App';
@@ -10,7 +9,7 @@ describe('Testing the App component', () => {
     const quote = renderer.create(
       <MemoryRouter>
         <App />
-      </MemoryRouter>
+      </MemoryRouter>,
     ).toJSON();
     expect(quote).toMatchSnapshot();
   });
