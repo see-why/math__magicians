@@ -77,7 +77,3 @@ describe('calculate functioin', () => {
     expect(calculate(obj, equal)).toEqual(result);
   });
 });
-
-// buttonName === '.'
-// buttonName === '='
-// buttonName === '+/-'
