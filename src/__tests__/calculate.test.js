@@ -1,4 +1,5 @@
 import '@testing-library/jest-dom';
+import { waitFor } from '@testing-library/react';
 import calculate from '../logic/calculate';
 
 describe('calculate functioin', () => {
@@ -50,6 +51,20 @@ describe('calculate functioin', () => {
     const obj = { next: '3', operation: '+', total: '10' };
     const newObj = { next: '3.' };
     const button = '.';
+    expect(calculate(obj, button)).toEqual(newObj);
+  });
+
+  it('When a dot key is pressed', () => {
+    const obj = { next: '3' };
+    const newObj =  {"next": "-3"};
+    const button = '+/-';
+    expect(calculate(obj, button)).toEqual(newObj);
+  });
+
+  it('When a equal key is pressed with plus minus operator', () => {
+    const obj =  { next: '3', operation: '+', total: '10' };
+    const newObj =  {"next": "-3", "operation": "+", "total": "10"};
+    const button = '+/-';
     expect(calculate(obj, button)).toEqual(newObj);
   });
 });
