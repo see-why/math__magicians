@@ -18,7 +18,8 @@ It is a Single Page App (SPA) that allows users to:
 
 ## Live Demo
 
-[Live Demo Link](https://leandro-barretoo.github.io/math__magicians/)
+[Heroku](https://math--magicians.herokuapp.com/)
+[Netlify](https://flamboyant-bartik-871645.netlify.app/)
 
 
 ## Getting Started
